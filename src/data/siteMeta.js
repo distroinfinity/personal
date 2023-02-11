@@ -7,21 +7,18 @@ import logoGolang from '@/images/logos/icons8-golang.svg'
 import logoKubernetes from '@/images/logos/kubernetes.svg'
 import logoCaptainhook from '@/images/logos/captainhook.svg'
 const siteMeta = {
-  title: 'Brian Ketelsen',
+  title: 'Manu Rajput',
   description:
-    'Brian Ketelsen is a developer advocate, keynote speaker, author, and open source practitioner.',
+    'Manu Rajput is a undergrad, software developer, traveller and a web3 enthusiast.',
   copyright: 'Manu Rajput',
   credits: 'Made with ❤️ using ',
   author: {
-    name: 'Brian Ketelsen',
-    email: 'me@brian.dev',
-    twitter: 'https://twitter.com/bketelsen',
-    mastodon: 'https://tty0.social/@bketelsen',
-    instagram: 'https://instagram.com/bketelsen',
-    github: 'https://github.com.com/bketelsen',
-    linkedin: 'https://linkedin.com/in/brianketelsen',
-    twitch: 'https://twitch.tv/bketelsen',
-    youtube: 'https://youtube.com/@bketelsen',
+    name: 'Manu Rajput',
+    email: 'manurajput2911@gmail.com',
+    twitter: 'https://twitter.com/distroinfinity',
+    instagram: 'https://www.instagram.com/distroinfinity/',
+    github: 'https://github.com/distroinfinity',
+    linkedin: 'https://www.linkedin.com/in/manurajput2911/',
   },
   siteUrl: 'https://brian.dev',
 }
