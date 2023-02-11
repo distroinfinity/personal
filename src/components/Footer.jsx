@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import siteMeta from '@/data/siteMeta';
+import siteMeta from '@/data/siteMeta'
 import { Container } from '@/components/Container'
 
 function NavLink({ href, children }) {
@@ -23,12 +23,18 @@ export function Footer() {
               <div className="flex gap-6 text-sm font-medium text-zinc-800 dark:text-zinc-200">
                 <NavLink href="/about">About</NavLink>
                 <NavLink href="/projects">Projects</NavLink>
-                <NavLink href="/speaking">Speaking</NavLink>
-                <NavLink href="/uses">Uses</NavLink>
-                <NavLink href="/liam">Liam</NavLink>
+                {/* <NavLink href="/speaking">Speaking</NavLink> */}
+                {/* <NavLink href="/uses">Uses</NavLink> */}
+                {/* <NavLink href="/liam">Liam</NavLink> */}
               </div>
               <p className="text-sm text-zinc-600 dark:text-zinc-300">
-                  &copy; {new Date().getFullYear()} {siteMeta.copyright} 
+                &copy; {new Date().getFullYear()} {siteMeta.copyright}
+                <br></br>
+                {siteMeta.credits}{' '}
+                <a href="https://github.com/bketelsen/spotlight">
+                  {' '}
+                  <u>spotlight </u>
+                </a>
               </p>
             </div>
           </Container.Inner>
